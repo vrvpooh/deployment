@@ -29,7 +29,7 @@ spec:
       containers:
         - name: go-api
           # TODO: replace with your Docker Hub image after CI/CD builds it
-          image: DOCKER_USERNAME/go-api:latest
+          image: voravee/go-api:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
